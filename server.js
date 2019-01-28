@@ -16,6 +16,6 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.use('/api', appRoutes);
+app.use('/', appRoutes);
 
 module.exports = app;
